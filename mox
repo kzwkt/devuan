@@ -7,7 +7,7 @@ case $1 in
 	2)
 	doas ntfs-3g /dev/sda6 /home/kai/mnt/lib;;
 	3)
-    doas ntfs-3g /dev/sda5 /home/kai/mnt/po;;
+        doas ntfs-3g /dev/sda5 /home/kai/mnt/win;;
 	4)
 	doas umount /home/kai/mnt/aps;;
 	5)
@@ -15,7 +15,7 @@ case $1 in
 	6)
 	doas umount /home/kai/mnt/lib;;
 	7)
-	doas umount /home/kai/mnt/po;;
+	doas umount /home/kai/mnt/win;;
 	*)
 	echo "
 		usage mox [0-7]
