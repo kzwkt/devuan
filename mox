@@ -1,0 +1,27 @@
+#!/bin/sh
+case $1 in
+	0)
+	doas ntfs-3g /dev/sda1 /home/kai/mnt/aps ;;
+	1)
+	doas ntfs-3g /dev/sda4 /home/kai/mnt/media;;
+	2)
+	doas ntfs-3g /dev/sda6 /home/kai/mnt/lib;;
+	3)
+    doas ntfs-3g /dev/sda5 /home/kai/mnt/po;;
+	4)
+	doas umount /home/kai/mnt/aps;;
+	5)
+ 	doas umount /home/kai/mnt/media;;
+	6)
+	doas umount /home/kai/mnt/lib;;
+	7)
+	doas umount /home/kai/mnt/po;;
+	*)
+	echo "
+		usage mox [0-7]
+		mount-unmount=aps[0,4],media[1,5],lib[2,6],po[3,7]";;
+esac
+
+
+
+
