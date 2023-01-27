@@ -193,6 +193,7 @@
     <ResizeMode>opaque</ResizeMode>
 
     <!-- Key bindings -->
+<!-- key 4=win/meta key C=control A=alt  S=shift -->
     <Key key="Up">up</Key>
     <Key key="Down">down</Key>
     <Key key="Right">right</Key>
@@ -222,7 +223,6 @@
 <Key mask="CA" key="Left">maxleft</Key>
 <Key mask="CA" key="Up">maxtop</Key>
 <Key mask="CA" key="Down">maxbottom</Key>
-
 
 <Key mask="4" key="#">desktop#</Key>    
 <Key mask="4" key="z">root:3</Key>
